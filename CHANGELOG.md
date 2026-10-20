@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.2.0 — 2026-10-20
+
+- DNS/subdomain hosting footprint: CT-log enumeration (crt.sh),
+  stdlib resolution, live/dead counts and shared-host clustering
+- Dossier comparison: --diff against a previous JSON dossier reports
+  technology changes, posture regressions and redirect moves
+- CLI: --footprint and --diff flags
+- 7 new tests (18 total)
+
+
 ## v0.1.0 — 2026-10-20
 
 - Core dossier: technology fingerprinting (headers, body markers, safe

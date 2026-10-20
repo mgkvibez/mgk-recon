@@ -2,7 +2,7 @@
 
 > Point your AI agent at a domain. Get back an evidence-based recon dossier.
 
-**Status: v0.1.0 — core dossier shipping.** Tech fingerprinting, redirect chains and header posture work today; DNS/subdomain footprint is next (see the roadmap).
+**Status: v0.1.0 — core dossier shipping.** Tech fingerprinting, redirect chains and header posture work today; DNS/subdomain footprint and dossier diffing shipped in v0.2.0.
 
 mgk-recon is an Agent Skill: installable into Claude Code, Codex or any
 Skills-compatible agent (77+ via the Skills CLI). One command, one domain, one
@@ -20,7 +20,7 @@ Passive and OSINT-legal techniques only. No exploitation, no false claims.
 
     python -m mgk_recon example.com --out dossier.md --json dossier.json
 
-11 offline tests (local HTTP fixture, no network):
+18 offline tests (local HTTP fixture, no network):
 
     python -m unittest discover -s tests
 
