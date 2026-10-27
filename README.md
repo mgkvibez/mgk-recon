@@ -35,4 +35,6 @@ Passive and OSINT-legal techniques only. No exploitation, no false claims.
 
 ## License
 
-MIT
+PolyForm Noncommercial 1.0.0 — personal, educational and
+noncommercial use only; commercial use, distribution or shipping
+in marketed products is not permitted. See [LICENSE](LICENSE).
