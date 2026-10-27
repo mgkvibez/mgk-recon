@@ -7,6 +7,9 @@ description: Point the agent at a domain and produce an evidence-based recon dos
 
 One command, one domain, one structured dossier. Passive only —
 no exploitation, no false claims, every claim carries its source.
+v0.3 adds cert-transparency monitoring (--ct-baseline/--ct-diff)
+and strictly read-only passive checks (--passive): security.txt,
+DMARC/SPF presence, TLS certificate summary.
 
 ## Requirements
 

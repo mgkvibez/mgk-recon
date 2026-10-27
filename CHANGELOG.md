@@ -1,5 +1,18 @@
 # Changelog
 
+## v0.3.0 — 2026-10-27
+
+- **Cert-transparency monitoring**: --ct-baseline records the
+  crt.sh certificate set for the target; --ct-diff compares the
+  current set against that baseline and reports every new
+  certificate (issuer, not-before, names) as a change event.
+  One-shot footprint becomes a monitoring primitive.
+- **Passive checks** (--passive): security.txt presence, DMARC/SPF
+  TXT presence and a TLS certificate summary (CN, issuer, validity
+  window), all strictly read-only, all reported as source-linked
+  evidence. Advisory wording: 'no issues found by ruleset v0.3.0'.
+- Suite grown to 32 tests (6 CT, 8 passive).
+
 ## v0.2.0 — 2026-10-20
 
 - DNS/subdomain hosting footprint: CT-log enumeration (crt.sh),

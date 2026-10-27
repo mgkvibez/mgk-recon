@@ -33,6 +33,21 @@ Passive and OSINT-legal techniques only. No exploitation, no false claims.
 - [docs/research.md](docs/research.md) — market research and competitive landscape
 - [docs/roadmap.md](docs/roadmap.md) — development milestones toward v0.1.0
 
+## v0.3 — CT monitoring and passive checks
+
+`--ct-baseline certs.json` records the current crt.sh certificate set
+for the target; `--ct-diff certs.json` compares a later run against it
+and reports every new certificate as a change event. `--passive` adds
+strictly read-only checks to the dossier: security.txt presence,
+DMARC/SPF records, and a TLS certificate summary — every claim
+source-linked, wording advisory ("no issues found by ruleset
+v0.3.0").
+
+```console
+python -m mgk_recon example.com --ct-baseline certs.json
+python -m mgk_recon example.com --ct-diff certs.json --passive --json d.json
+```
+
 ## License
 
 PolyForm Noncommercial 1.0.0 — personal, educational and
