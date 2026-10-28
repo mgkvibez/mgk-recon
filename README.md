@@ -16,6 +16,13 @@ structured dossier:
 
 Passive and OSINT-legal techniques only. No exploitation, no false claims.
 
+
+<div align="center">
+  <img src="docs/demo/dossier-terminal.svg" alt="mgk-recon sample dossier output" width="100%">
+</div>
+
+_Every claim carries its evidence: headers, TXT records and the TLS chain it came from._
+
 ## Quickstart
 
     python -m mgk_recon example.com --out dossier.md --json dossier.json
