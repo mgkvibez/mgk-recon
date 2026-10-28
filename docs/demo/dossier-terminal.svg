@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="576" viewBox="0 0 760 576" role="img" aria-label="mgk-recon sample dossier output in a terminal">
+<rect width="760" height="576" rx="8" fill="#0a0e14"/>
+<rect width="760" height="40" rx="8" fill="#0d1117"/><rect y="32" width="760" height="8" fill="#0d1117"/>
+<circle cx="24" cy="20" r="6" fill="#ff5f57"/>
+<circle cx="46" cy="20" r="6" fill="#febc2e"/>
+<circle cx="68" cy="20" r="6" fill="#28c840"/>
+<text x="380.0" y="25" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#8b949e">mgk-recon — evidence-based recon dossier</text>
+<text x="36" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#00ff41"><tspan fill="#00ff41">$</tspan><tspan dx="8">python -m mgk_recon shop.example.com --footprint --passive</tspan></text>
+<text x="36" y="118" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#c9d1d9"><tspan fill="#00ff41">$</tspan><tspan dx="8"># Recon dossier — https://shop.example.com</tspan></text>
+<text x="36" y="140" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#8b949e"><tspan fill="#00ff41">$</tspan><tspan dx="8">_Fetched 2026-10-28T09:41Z · final URL: https://shop.example.com</tspan></text>
+<text x="36" y="184" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="bold" fill="#58a6ff">Detected technologies</text>
+<text x="36" y="206" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#f85149">−</text>
+<text x="56" y="206" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#c9d1d9">nginx 1.24 — _evidence: Server header_</text>
+<text x="36" y="228" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#f85149">−</text>
+<text x="56" y="228" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#c9d1d9">Shopify storefront — _evidence: X-ShopId header_</text>
+<text x="36" y="272" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="bold" fill="#58a6ff">Security header posture (score 3/5)</text>
+<text x="36" y="294" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#3fb950">✓</text>
+<text x="56" y="294" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#3fb950">Content-Security-Policy — _evidence: response headers_</text>
+<text x="36" y="316" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#f85149">−</text>
+<text x="56" y="316" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#f85149">HSTS — _evidence: absent from response_</text>
+<text x="36" y="360" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="bold" fill="#58a6ff">Passive checks — ruleset v0.3.0</text>
+<text x="36" y="382" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#f85149">−</text>
+<text x="56" y="382" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#c9d1d9">security.txt: 1 contact — _evidence: /.well-known/security.txt_</text>
+<text x="36" y="404" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#f85149">−</text>
+<text x="56" y="404" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#c9d1d9">DMARC present, SPF present — _evidence: _dmarc TXT lookup_</text>
+<text x="36" y="426" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#f85149">−</text>
+<text x="56" y="426" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#c9d1d9">TLS: CN=shop.example.com · expires in 74d — _evidence: cert chain_</text>
+<text x="36" y="470" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="bold" fill="#58a6ff">Hosting footprint</text>
+<text x="36" y="492" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#f85149">−</text>
+<text x="56" y="492" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#c9d1d9">23 CT-log subdomains · 14 live · 3 shared hosts</text>
+<text x="36" y="514" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#f85149">−</text>
+<text x="56" y="514" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#8b949e">no issues found by ruleset v0.3.0 that require alerting</text>
+<rect x="36" y="522" width="9" height="16" fill="#00ff41"/>
+</svg>
